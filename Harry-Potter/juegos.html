@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/script2.js"></script>
+    <title>Harry Potter: Juego</title>
+</head>
+<body>
+    <header>
+        <div class="video-header">
+            <img src="images/harry-potter-nueva-peli.jpeg" width="100%" height="400px" alt="">
+        </div>
+        <nav>
+            <ul class="lista-menu">
+                <li class="caja-menu">
+                    <a class="icono-hamburguesa" href="javascript:void(0)"><span class="icon icon-bars"></span></a>
+                    <div class="menu">
+                        <a href="#">Inicio</a>
+                        <a href="peliculas.html">Películas</a>
+                        <a href="libros.html">Libros</a>
+                        <a href="autora.html">Autora</a>
+                        <a href="noticias.html">Noticias</a>
+                        <a href="juegos.html">Juegos</a>
+                        <a href="blog.html">Blog</a>
+                        <ul class="lista-submenu">
+                            <a href="lore.html">Lore<span class="material-icons flecha-menu">expand_more</span></a>
+                            <li>
+                                <div class="submenu">
+                                    <a href="#">Lugares</a>
+                                    <a href="#">Personajes</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <ul class="migas">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Juegos</a>
+            </li>
+        </ul>
+    </div>
+    <section >
+            <h2  class="text">¿Cuánto sabes de Harry Potter?</h2>
+            <p class="intro-peliculas">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quia animi fugiat cumque. Officia odit doloribus incidunt facere asperiores. Aliquam perspiciatis quaerat amet laudantium recusandae cupiditate delectus soluta velit obcaecati.</p>
+            <article>
+                <div class="boton-comenzar">
+                    <button class="comenzar" id="comenzar">Comenzar el test</button>
+                </div>
+            <div class="score col-5">
+                <div class="correctas col-5">
+                    <div class="mano-numero">
+                        <img src="images/thumb_up_off_alt_black_24dp.svg" class="mano-img" alt="Like">
+                        <p class="bien">0</p>
+                    </div>        
+                </div>
+                <div class="incorrectas col-5">
+                    <div class="mano-numero">
+                        <img src="images/thumb_down_black_24dp.svg" class="mano-img" alt="Dislike">
+                        <p class="mal">0</p>
+                    </div>
+                </div>
+            </div>
+           
+        <div class="contenedor-preguntas col-12">
+            <div class="solo-preguntas">
+                <div class="pregunta col-12">
+                    <div class="numero" id="1">1</div>
+                        <div class="contenido-pregunta">
+                            <label for="1">¿Cómo se llama el director de Hogwgart?</label>
+                            <p><input type="radio" name="1" value="Madame Maxime">Madame Maxime</p>
+                            <p><input type="radio" name="1" value="Severus Snape">Severus Snape</p>
+                            <p><input type="radio" name="1" value="Albus Dumbledore">Albus Dumbledore</p>
+                            <p><input type="radio" name="1" value="Rubeos Hagrid">Rubeos Hagrid</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="2">2</div>
+                        <div class="contenido-pregunta">
+                            <label for="2">¿A qué casa de Howarts perteneció Cedric Diggory?</label>
+                            <p><input type="radio" name="2" value="Gryffindor">Gryffindor</p>
+                            <p><input type="radio" name="2" value="Hufflepuff">Hufflepuff</p>
+                            <p><input type="radio" name="2" value="Ravenclaw">Ravenclaw</p>
+                            <p><input type="radio" name="2" value="Slytherin">Slytherin</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="3">3</div>
+                        <div class="contenido-pregunta">
+                            <label for="3">¿Cuál es el cuarto libro de la saga?</label>
+                            <p><input type="radio" name="3" value="H.P. y la piedra filosofal">H.P. y la piedra filosofal</p>
+                            <p><input type="radio" name="3" value="H.P. y el misterio del príncipe">H.P. y el misterio del príncipe</p>
+                            <p><input type="radio" name="3" value="H.P. y el caliz de fuego">H.P. y el caliz de fuego</p>
+                            <p><input type="radio" name="3" value="H.P. y el prisionero de azkaban">H.P. y el prisionero de azkaban</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="4">4</div>
+                        <div class="contenido-pregunta">
+                            <label for="4">¿Cuántos profesores de Defensa contra las Artes Oscuras ha tenido Harry?</label>
+                            <p><input type="radio" name="4" value="1">1</p>
+                            <p><input type="radio" name="4" value="3">3</p>
+                            <p><input type="radio" name="4" value="6">6</p>
+                            <p><input type="radio" name="4" value="4">4</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="5">5</div>
+                        <div class="contenido-pregunta">
+                            <label for="5">¿Quién entrega a Harry su carta de aceptación a Hogwarts?</label>
+                            <p><input type="radio" name="5" value="Su lechuza">Su lechuza</p>
+                            <p><input type="radio" name="5" value="Hagrid">Hagrid</p>
+                            <p><input type="radio" name="5" value="Albus Dumbledore">Albus Dumbledore</p>
+                            <p><input type="radio" name="5" value="Su padre">Su padre</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="6">6</div>
+                        <div class="contenido-pregunta">
+                            <label for="6">En la saga, ¿cómo se llaman los no-magos?</label>
+                            <p><input type="radio" name="6" value="Kappa">Kappa</p>
+                            <p><input type="radio" name="6" value="Directioners">Directioners</p>
+                            <p><input type="radio" name="6" value="Muggles">Muggles</p>
+                            <p><input type="radio" name="6" value="Humanos">Humanos</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="7">7</div>
+                        <div class="contenido-pregunta">
+                            <label for="7">¿Quién le regaló a Harry la Nimbus 2000?</label>
+                            <p><input type="radio" name="7" value="Albus Dumbledore">Albus Dumbledore</p>
+                            <p><input type="radio" name="7" value="Minerva McGonagall">Minerva McGonagall</p>
+                            <p><input type="radio" name="7" value="Rubeus Hagrid">Rubeus Hagrid</p>
+                            <p><input type="radio" name="7" value="Tom Riddle">Tom Riddle</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="8">8</div>
+                        <div class="contenido-pregunta">
+                            <label for="8">¿Quién derrota a Lord Voldemort?</label>
+                            <p><input type="radio" name="8" value="Hermione Granger">Hermione Granger</p>
+                            <p><input type="radio" name="8" value="Harry Potter">Harry Potter</p>
+                            <p><input type="radio" name="8" value="Draco Malfoy">Draco Malfoy</p>
+                            <p><input type="radio" name="8" value="Neville Lombottom">Neville Lombottom</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="9">9</div>
+                        <div class="contenido-pregunta">
+                            <label for="9">¿Cuál es el hechizo para ahuyentar a los dementores?</label>
+                            <p><input type="radio" name="9" value="Desmaius">Desmaius</p>
+                            <p><input type="radio" name="9" value="Occulus Reparo">Occulus Reparo</p>
+                            <p><input type="radio" name="9" value="Alohomora">Alohomora</p>
+                            <p><input type="radio" name="9" value="Expecto Patronum">Expecto Patronum</p>
+                    </div>
+                </div>
+                <div class="pregunta col-12">
+                    <div class="numero" id="10">10</div>
+                        <div class="contenido-pregunta">
+                            <label for="10">La segunda prueba del torneo de los tres magos consistía en…</label>
+                            <p><input type="radio" name="10" value="Recuperar algo valioso del lago de Hogwarts">Recuperar algo valioso del lago de Hogwarts</p>
+                            <p><input type="radio" name="10" value="Salir de un laberinto en el bosque perdido">Salir de un laberinto en el bosque perdido</p>
+                            <p><input type="radio" name="10" value="Limpiar las mazmorras">Limpiar las mazmorras</p>
+                            <p><input type="radio" name="10" value="Escapar de Azkaban">Escapar de Azkaban</p>
+                    </div>
+                </div>
+            </div>
+            <button class="siguiente">Siguiente</button>
+        </div>
+        
+    </article>
+    </section>
+</body>
+</html>

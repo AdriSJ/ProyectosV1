@@ -1,0 +1,166 @@
+.libro{
+    margin-left: 17%;
+}
+.titulo-libro h2{
+    font-size: 40px;
+    padding: 15px;
+    cursor: pointer;
+    margin: auto;
+}
+.descripcion-libro{
+    display: none;
+}
+.descripcion-libro img{
+    width: 17%;
+    padding: 2px;
+    float: left;
+    margin-right: 20px;
+}
+.descripcion-libro p{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.8;
+    margin-bottom: 150px;
+}
+.titulo-libro h2:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.indicador{
+    float: right;
+}
+.indicador::after{
+    content: "+";
+}
+.abierto .indicador::after{
+    content: "-";
+}
+.descripcion-libro p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* -------------------Lugares------------------ */
+.titulo-lugares{
+    margin-top: 100px;
+}
+.lugares{
+    margin-top: 150px;
+    margin-left: 8%;
+    margin-bottom: 150px;
+    display: flex;
+    list-style-type: none;
+    padding: 2%;
+    flex-wrap: wrap; /* permite que si los elementos no abarquen el contenedor lo baje a la siguiente línea*/
+    justify-content: space-around;   /* da espacio a los contenidos */
+}
+.lugares li{
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    /* margin-left: 20px; */
+} 
+.lugares img{
+    width: 500px;
+    height: 250px;
+    opacity: 0.5;
+}
+.sitio{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    display: none;
+}
+.mapa-lugares{
+    margin: 100px 33%;
+}
+.texto-lugares{
+    text-align: center;
+    font-weight: 2;
+    font-size: 20px;
+    margin: 0 20%;
+    text-align: justify;
+}
+.titulo-lugares2{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+.colage{
+    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.colage-items{
+    float: left;
+    width: 30%;
+    cursor: pointer;
+    display: block;
+}
+.colage-img{
+    padding: 1px;
+    border: dotted rgba(0, 0, 0, 0.3) 1px;
+    border-radius: 10px;
+}
+.colage-img:hover{
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.507), 0 5px 10px rgba(218, 165, 32, 0.568);
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    z-index: 1;
+}
+.modal img{
+    width: 90%;
+    max-width: 900px;
+}
+.modal-boton{
+    width: 40px;
+    height: 40px;
+    color: rgba(255, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 18%;
+    right: 22%;
+}
+.modal-boton:hover{
+    background-color:rgba(255, 253, 253, 0.6);
+}
+
+/* -------------------PAGINA DE CASAS--------------  */
+.escudo img{
+    float: left;
+    margin: 100px 5%;
+}
+.titulo-casas{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.escudo p{
+    margin-top: 110px;
+    
+}
