@@ -1,0 +1,83 @@
+*{
+    box-sizing: content-box;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(240, 246, 246);
+}
+.general{
+    width: 650px;
+    margin: auto;
+}
+#foto{
+    width: 80%;
+    height: 200px;
+    
+}
+h1{
+    background-color: rgba(200, 191, 246, 0.479);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration: underline;
+    width: 42%;
+    margin: auto;
+}
+.div1{
+    /* border: solid black 1px; */
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.inputt{
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 8% 33%;
+}
+a{
+    color: rgb(153, 153, 153);
+}
+.labell{
+    font-weight: bolder;
+}
+.div2{
+    /* border: black solid 1px; */
+    clear: both;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 5%;   
+}
+#boton{
+    border: none;
+    color: white;
+    background-color: rgba(25, 142, 172, 0.835);
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+#boton:hover{
+    color: rgb(5, 5, 73);
+    background-color: rgba(25, 143, 172, 0.342);
+}
+#resultado{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#error{
+    color: red;
+    font-size: 20px;
+}
+span{
+    color: blue;
+    font-size: 25px;
+}
+hr{
+    margin: 5% 5%;
+}

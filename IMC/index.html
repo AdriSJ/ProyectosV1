@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <img src="images/header.PNG" alt="header" id="foto">
+        <h1>Calcula tu Índice de Masa Corporal (Sistema métrico)</h1>
+    </header>
+    <section>
+        <div class="general">
+        <div class="div1">
+            <label for="altura" class="labell">Altura <a>(cm)</a></label>
+            <input type="text" class="inputt" required maxlength="3" id="altura">
+        </div>
+        <div class="div1">
+            <label for="peso" class="labell">Peso <a>(kg)</a></label>
+            <input type="text" class="inputt" required maxlength="3" id="peso">
+        </div>
+        <div class="div1">
+            <label for="edad" class="labell">Edad <a>(años)</a></label>
+            <input type="text" class="inputt" maxlength="3" id="edad">
+        </div>
+   
+        <div class="div2">
+            <label for="selech">Hombre</label>
+            <input type="radio" name="hym" value="hombre" id="selech">
+            <label for="selecm">Mujer</label>
+            <input type="radio" name="hym" value="mujer" id="selecm">
+        </div>
+        <div class="div2">
+            <input type="button" value="Calcular IMC" onclick="cal()" id="boton">
+        </div>
+    </div>
+    <hr>
+        <div id="resultado">
+            <div id="error"></div>
+        </div>
+    </section>
+</body>
+</html>
