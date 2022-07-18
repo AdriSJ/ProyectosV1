@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" conten="Adrián Serrano y Jose Luis Sanchez">
+    <link rel="stylesheet" href="Ejercicio_1-2_Formulario.css">
+    <title>Ejercicio 1-2 Formulario</title>
+    <script>
+        function calculo() {
+        var nif=document.getElementById("dni").value;
+        if(isNaN(nif)||nif.length!=8){
+           document.getElementById("error").innerHTML="ERROR: No has introducido bien los datos."
+        }
+        else{
+        var letras="TRWAGMYFPDXBNJZSQVHLCKET"
+        var r=nif%23;
+        pos=letras.charAt(r);
+        document.getElementById("resultado").innerHTML="Tu letra es:"+pos;
+        }}
+        
+    </script>
+
+</head>
+<body>
+    <header>
+        <img src="dni_jordi.jpg" class="jordi" alt="">
+    </header>
+    <h1>Comprobar tu letra de DNI:</h1>
+    <fieldset>
+    <form action="" class="formu" method="POST">
+        <label for="dni" class="alt">Indique digitos númericos DNI:</label>
+        <input type="text" id="dni" class="alt" name="dni">
+        <input type="button" value="Enviar" class="boton" onclick="calculo()">
+        
+        <input type="reset" class="boton" value="Borrar">
+    </fieldset>
+    <p id="resultado">
+        <p id="error"></p>
+    </p>
+</form>
+    
+</body>
+</html>
