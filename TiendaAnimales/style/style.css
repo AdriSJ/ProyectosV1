@@ -1,0 +1,121 @@
+
+.head {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(35, 45, 57); 
+    height: 35px;
+    width: 97%;
+    padding-top: 10px;
+    margin-top: -3px;
+    margin-left: 20px;
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(95, 94, 94);  
+}
+
+.menu a {
+    color:white;
+    text-align: none;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
+
+section{
+    padding: 25px 50px 50px 50px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Oxygen', sans-serif;
+    color: #302F34;
+}
+
+.imgperros {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.perritos {
+    margin-bottom: 40px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.nombre {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #302F34;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.tituloh2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabla1 {
+    text-align: center;
+    margin-left: 220px;
+}
+
+th {
+    padding: 0px 80px 10px 80px;
+    font-size: 20px;
+    font-weight: 800;
+    border-bottom: dotted 1px rgb(35, 45, 57) ;
+}
+
+.lista1 {
+    list-style: none;
+    width: 40%;
+    background-color: #302F34;
+    border: 3px solid #89a6be;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+
+.lista1 li::before {
+    font-family: "Material Icons";
+    content: "\f091";
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px 10px 70px;
+}
+
+.contac {
+    margin-left: 370px;
+}
+
+form {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.footer {
+    background-color:  rgb(35, 45, 57);
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    top: 90%;
+    left: 96%;
+}
