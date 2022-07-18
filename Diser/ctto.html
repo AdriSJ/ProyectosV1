@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="Adrián Serrano Jareño">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="script/script.js"></script> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+        <title>Diser: Contacto</title>
+    </head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="images/logo.png" width="100%" height="100%" alt="logo">
+        </div>
+        <div id="menu">
+            <a href="index.html">INICIO</a>
+            <a href="QuienesSomos.html">QUIENES SOMOS</a>
+            <a href="autoconsumo.html">AUTOCONSUMO</a>
+            <a href="proyecto.html">PROYECTOS</a>
+            <a href="eficiencia.html">EFICIENCIA ENERGÉTICA</a>
+            <a href="#">CONTACTO</a>
+        </div>
+        <div class="fechareloj" id="fecha"></div>
+        <div class="fechareloj" id="reloj"></div>
+    </nav>
+    <header>
+        <img src="images/header.png" width="100%" height="3%" alt="placassolares">
+    </header>
+    <section>
+        <form action="" method="POST">
+            <p>
+                <label class="cuadro" for="nombre"></label>
+                <input class="cuadro" type="text" id="nombre" name="nombre" size="30" required placeholder="Nombre">
+            </p>
+            <p>
+                <label class="cuadro" for="correo"></label>
+                <input class="cuadro" type="email" name="email" id="correo" required placeholder="ejemplo@dominio.com" size="30">
+            </p>
+            <p>
+                <label class="cuadro" for="telefono"></label>
+                <input class="cuadro" type="tel" name="telefono" id="telefono" placeholder="Nº teléfono" maxlength="9">
+            </p>
+            <p>
+                <label class="cuadrotexto" for="mensaje"></label>
+                <textarea class="cuadrotexto" name="mensaje" id="mensaje" cols="50" rows="10" placeholder="Escribe aquí tu mensaje..."></textarea>
+            </p>
+            <p>
+                <input type="submit" class="boton" id="boton" disabled onclick="return comprobarFormulario()">
+            </p>
+            <p>
+                <input type="checkbox" id="casilla" class="boton" onchange="habilitar()">Aceptar politicas de privacidad.
+            </p>
+        </form>
+    </section>
+    <footer>
+        <div id="footer1">
+            <p>
+                <img src="images/iconlo.png" alt="">
+                Dirección: Calle Pino Verde, 13
+            </p>
+            <p>
+                <img src="images/iconloca.png" alt="">
+                CP: 13700, Tomelloso, Ciudad Real
+            </p>
+            <p>
+                <img src="images/icontel.png" alt="">
+                925 659 789
+            </p>
+            <p>
+                <img src="images/iconmail.png" alt="">
+                info@diersa.es
+            </p> 
+        </div>
+        <div id="footer2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.942290409344!2d-3.023368135036166!3d39.16086520699993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd68fb8520fea96f%3A0x2e88e9fd435e483c!2sAyuntamiento%20de%20Tomelloso!5e0!3m2!1ses!2ses!4v1619434987754!5m2!1ses!2ses" width=100% height="100%" style="border:0;" id="mapa" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer> 
+</body>
+</html>

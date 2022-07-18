@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Adrián Serrano Jareño">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Diser</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="images/logo.png" width="100%" height="100%" alt="logo">
+        </div>
+        <div id="menu">
+            <a href="#">INICIO</a>
+            <a href="QuienesSomos.html">QUIENES SOMOS</a>
+            <a href="autoconsumo.html">AUTOCONSUMO</a>
+            <a href="proyecto.html">PROYECTOS</a>
+            <a href="eficiencia.html">EFICIENCIA ENERGÉTICA</a>
+            <a href="ctto.html">CONTACTO</a>
+        </div>
+        <div class="fechareloj" id="fecha"></div>
+        <div class="fechareloj" id="reloj"></div>
+    </nav>
+    <header>
+        <img src="images/header.png" width="100%" id="imgheader" height="3%" alt="placassolares">
+    </header>
+    <section id="section">
+        <h1>AUTOCONSUMO FOTOVOLTAICO PARA EMPRESAS</h1>
+        <P>
+            Descubre cómo puedes <strong>ahorrar hasta un 60% en la factura de eléctricidad de tu empresa</strong> con las <strong>soluciones de autoconsumo industrial</strong> de DISER. 
+        </P>
+        <hr>
+        <article id="arti1">
+            <h2>NUESTROS SERVICIOS</h2>
+                <div id="div1">
+                    <img src="images/icon1.png" width="20%" alt="">
+                    <h3>EFICIENCIA ENERGÉTICA</h3>
+                    <p>
+                        Desarrollo de proyectos intregrales de eficiencia energética para todos los sectores.
+                    </p>
+                </div>
+                <div id="div2">
+                    <img src="images/icon2.png" width="20%" alt="">
+                    <h3>AUTOCONSUMO</h3>
+                    <p>
+                        Instalaciones fotovoltacias en continua innovación en tecnología, producto y desarrollo. 
+                    </p>
+                </div>
+                <div id="div3">
+                    <img src="images/icon3.png" width="20%" alt="">
+                    <h3>PARQUES FOTOVOLTAICOS</h3>
+                    <p>
+                        Dedicados a la promoción, desarrollo, construcción y mantenimiento de grandes plantas en distintos países.
+                    </p>
+                </div>
+        </article>
+        <br>
+        <hr>
+        <article id="arti2">
+            <h2>PROYECTOS</h2>
+                <div id="pro1">
+                    <img src="images/proyecto1.jpg" class="arti2" width="300px" id="img1" alt="">
+                    <p>
+                        Instalación de paneles fotovoltacos en una
+                    </p>
+                </div>
+                <div id="pro2">
+                    <img src="images/proyecto2.jpg" class="arti2" id="img2" width="300px" alt="">
+                    <p>
+                        Instalación de paneles fotovoltacos en una
+                    </p>
+                </div>
+                <div id="pro3">
+                    <img src="images/proyecto3.jpg" class="arti2" id="img3" width="300px" alt="">
+                    <p>
+                        Instalación de paneles fotovoltacos en una
+                    </p>
+                </div>
+        </article>
+        <hr>
+        <h2>PONTE EN CONTACTO CON NOSOTROS</h2>
+    </section>
+    <footer>
+        <div id="footer1">
+            <p>
+                <img src="images/iconlo.png" alt="">
+                Dirección: Calle Pino Verde, 13
+            </p>
+            <p>
+                <img src="images/iconloca.png" alt="">
+                CP: 13700, Tomelloso, Ciudad Real
+            </p>
+            <p>
+                <img src="images/icontel.png" alt="">
+                925 659 789
+            </p>
+            <p>
+                <img src="images/iconmail.png" alt="">
+                info@diersa.es
+            </p> 
+        </div>
+        <div id="footer2">
+            <form action="" id="formpie" method="POST">
+                <p>
+                    <label class="cuadro" for="nombre"></label>
+                    <input class="cuadro" type="text" id="nombre" name="nombre" size="30" required placeholder="Nombre">
+                </p>
+                <p>
+                    <label class="cuadro" for="correo"></label>
+                    <input class="cuadro" type="email" name="email" id="correo" required placeholder="ejemplo@dominio.com" size="30">
+                </p>
+                <p>
+                    <label class="cuadro" for="telefono"></label>
+                    <input class="cuadro" type="tel" name="telefono" id="telefono" placeholder="Nº teléfono" maxlength="9">
+                </p>
+                <p>
+                    <label class="cuadrotexto" for="mensaje"></label>
+                    <textarea class="cuadrotexto" name="mensaje" id="mensaje" cols="50" rows="10" placeholder="Escribe aquí tu mensaje..."></textarea>
+                </p>
+                <p>
+                    <input type="submit" class="boton" id="boton" disabled onclick="return comprobarFormulario()">
+                </p>
+                <p>
+                    <input type="checkbox" id="casilla" class="boton" onchange="habilitar()">Aceptar politicas de privacidad.
+                </p>
+            </form>
+        </div>
+    </footer>    
+</body>
+</html>

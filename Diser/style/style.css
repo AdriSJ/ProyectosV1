@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+hr{
+    clear: both;
+}
+.fechareloj{
+    color: orange;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 15px;
+}
+nav a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(51, 172, 14);
+    padding: 15px 5px;
+
+}
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+} 
+#logo{
+    /* border: black solid 1px; */
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+#menu{
+    /* border: black solid 1px; */
+    width: 67%;
+    height: 100px;
+    float: left;
+
+}
+#fecha{
+    /* border: black solid 1px; */
+    width: 18%;
+    height: 50px;
+    float: right;
+}
+#reloj{
+    /* border: black solid 1px; */
+    width: 18%;
+    height: 50px;
+    float: right;
+    text-decoration: underline;
+}
+h1,h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+hr{
+    color: rgb(34, 92, 34);
+}
+#imgheader{
+    border: green solid 2px;
+}
+#arti1{
+    margin-left: 6%;
+}
+#arti2{
+    margin-left: 3%;
+}
+#div1{
+    /* border: black solid 1px; */
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+#div2{
+    /* border: black solid 1px; */
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+#div3{
+    /* border: black solid 1px; */
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+#pro1{
+    /* border: black solid 1px; */
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+#pro2{
+    /* border: black solid 1px; */
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+#pro3{
+    /* border: black solid 1px; */
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.arti2{
+    opacity: 0.4;
+}
+#footer1{
+    /* border: black solid 1px; */
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: rgba(23, 143, 23, 0.616);
+}
+#footer2{
+    /* border: black solid 1px; */
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: rgba(236, 162, 25, 0.575);
+    
+}
+
+#tabla{
+    /* border: black solid 1px; */
+    width: 42%;
+    height: 200px;
+    float: left;
+    margin-left: 8%;
+    padding-top: 100px;
+}
+#tabla2{
+    /* border: black solid 1px; */
+    width: 42%;
+    height: 200px;
+    float: left;
+}
